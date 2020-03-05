@@ -39,10 +39,10 @@ public class TwitterBrowser_1{
     public static void main(String[] args) throws TwitterException {
         ConfigurationBuilder cb = new ConfigurationBuilder();
 	cb.setDebugEnabled(true)
-	.setOAuthConsumerKey("8e7UJa9Vnd5Hx2bkEOgcPetcc")//Ingresa tu ConsumerKey
-	.setOAuthConsumerSecret("iNAjYF4eSPQXuYMONveMQ9yagsyQ5JXDjkKBweHWYoxU2oO60S")//Ingresa tu ConsumerSecret 
-        .setOAuthAccessToken("706242316797939712-IrengkckAtq5BBZk2vwkLsoT3hL5IXN")//Ingresa tu AccessToken
-        .setOAuthAccessTokenSecret("AjBjgBXFDf62GF8VW7JHaFZB3JmWOW3iyf2TKt7825m0E");//Ingresa tu AccessTokenSecret
+	.setOAuthConsumerKey("***************************")//Ingresa tu ConsumerKey
+	.setOAuthConsumerSecret("*******************")//Ingresa tu ConsumerSecret 
+        .setOAuthAccessToken("*******************************")//Ingresa tu AccessToken
+        .setOAuthAccessTokenSecret("******************************");//Ingresa tu AccessTokenSecret
         TwitterFactory tf = new TwitterFactory(cb.build());
         Twitter twitter = tf.getInstance();
         
